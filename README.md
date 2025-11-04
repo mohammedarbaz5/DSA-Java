@@ -34,13 +34,13 @@ I will be covering the following topics step-by-step:
 
 🎯 __Learning Goals__
 
-⭐ **Strengthen Java fundamentals.**
+⭐ Strengthen Java fundamentals.
 
-⭐ **Develop problem-solving habits.**
+⭐ Develop problem-solving habits.
 
-⭐ **Create a clean GitHub history with daily commits.**
+⭐ Create a clean GitHub history with daily commits.
 
-⭐ **Gain confidence to build real-world projects.**
+⭐ Gain confidence to build real-world projects.
 
 🛠 __Tools & Setup__
 
