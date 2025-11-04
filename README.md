@@ -1,5 +1,5 @@
 # DSA-Java
-Java Learning Journey 🚀
+""Java Learning Journey"" 🚀
 
 Welcome to my Java Learning Journey repository! 🌱
 
@@ -7,82 +7,57 @@ This repository tracks my daily growth as I learn and master Java programming �
 
 ⭐ Why This Repository?
 
-To stay consistent in learning
+-To stay consistent in learning.
 
-To practice writing clean and clear code
+-To practice writing clean and clear code.
 
-To build a strong foundation in Java
+-To build a strong foundation in Java.
 
-To improve problem-solving skills
+-To improve problem-solving skills.
 
-To showcase my learn""
-📚 ""Learning Topics
+-To showcase my learn""
+
+📚 ""Learning Topics""
 
 I will be covering the following topics step-by-step:
 
-Stage
+| Stage | Topics |
+|-------|--------|
+| **Basics** | Syntax, Variables, Data Types, Input/Output |
+| **Control Flow** | If-else, Loops, Switch Case |
+| **Methods** | Functions, Parameters, Return Types |
+| **Data Structures** | Arrays, Strings, ArrayLists |
+| **OOP** | Classes, Objects, Constructors, Access Modifiers |
+| **OOP Core** | Inheritance, Polymorphism, Abstraction, Encapsulation |
+| **Advanced Java** | Exception Handling, File Handling, Multithreading |
+| **Collections Framework** | List, Set, Map, Iterator |
 
-Topics
-
-Basics
-
-Syntax, Variables, Data Types, Input/Output
-
-Control Flow
-
-If-else, Loops, Switch Case
-
-Methods
-
-Functions, Parameters, Return Types
-
-Data Structures
-
-Arrays, Strings, ArrayLists
-
-OOP
-
-Classes, Objects, Constructors, Access Modifiers
-
-OOP Core
-
-Inheritance, Polymorphism, Abstraction, Encapsulation
-
-Advanced Java
-
-Exception Handling, File Handling, Multithreading
-
-Collections Framework
-
-List, Set, Map, Iterator
 
 🎯 ""Learning Goals""
 
-Strengthen Java fundamentals
+-Strengthen Java fundamentals.
 
-Develop problem-solving habits
+-Develop problem-solving habits.
 
-Create a clean GitHub history with daily commits
+-Create a clean GitHub history with daily commits.
 
-Gain confidence to build real-world projects
+-Gain confidence to build real-world projects.
 
 🛠 ""Tools & Setup""
 
-Java JDK 17+
+-Java JDK 17+.
 
-IDE: VS Code / IntelliJ IDEA / Eclipse
+-IDE: VS Code / IntelliJ IDEA / Eclipse.
 
-Version Control: Git & GitHub
+-Version Control: Git & GitHub.
 
-🤝 Contributions & Support
+🤝 ""Contributions & Support""
 
 This is a public learning journey — you're welcome to share:
 
-Suggestions ✏️
-
-Improvements 🔧
-
-Helpful resources 📎
+* Suggestions ✏️
+* Improvements 🔧
+* Helpful resources 📎
 
 Thank you for stopping by!
 
