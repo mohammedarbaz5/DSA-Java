@@ -130,7 +130,6 @@ public class java_loops {
         }
         System.out.println("OUT OF LOOP");
 
-
         // CONTINUE KEYWORD      SKIPING A ITERATION
 
         for(int k = 1; k<=5 ; k++){
@@ -150,26 +149,10 @@ public class java_loops {
                 continue;
             }
             System.out.println(numbx);
-        }
-
-
-       
-
-
-
-
-        
-        
-        
-
-        
-
-
-        
-        
-
+        }   
     }
 }
+
 
 
 
