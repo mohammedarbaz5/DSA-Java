@@ -5,21 +5,20 @@ Welcome to my Java Learning Journey repository! 🌱
 
 This repository tracks my daily growth as I learn and master Java programming — starting from the fundamentals, moving into Object-Oriented Programming, exploring core Java concepts, and finally building mini projects to apply what I've learned.
 
-⭐ __Why This Repository?__
+⭐ #__Why This Repository?__
 
-➤ To stay consistent in learning.
+    ➤ To stay consistent in learning.
 
-➤ To practice writing clean and clear code.
+    ➤ To practice writing clean and clear code.
+ 
+    ➤ To build a strong foundation in Java.
 
-➤ To build a strong foundation in Java.
+    ➤ To improve problem-solving skills.  
+ 
+    ➤ To showcase my learning progress. 
 
-➤ To improve problem-solving skills.  
-
-➤ To showcase my learning progress. 
-
-📚 __Learning Topics__
+📚 #__Learning Topics__
 I will be covering the following topics step-by-step:
-
 | Stage | Topics |
 |-------|--------|
 | **Basics** | Syntax, Variables, Data Types, Input/Output |
@@ -32,33 +31,33 @@ I will be covering the following topics step-by-step:
 | **Collections Framework** | List, Set, Map, Iterator |
 
 
-🎯 __Learning Goals__
+🎯 #__Learning Goals__
 
-⭐ Strengthen Java fundamentals.
+   ⭐ Strengthen Java fundamentals.
 
-⭐ Develop problem-solving habits.
+   ⭐ Develop problem-solving habits.
 
-⭐ Create a clean GitHub history with daily commits.
+   ⭐ Create a clean GitHub history with daily commits.
 
-⭐ Gain confidence to build real-world projects.
+   ⭐ Gain confidence to build real-world projects.
 
-🛠 __Tools & Setup__
+🛠 #__Tools & Setup__
 
-🔹 **Java JDK 17+**
+   🔹 **Java JDK 17+**
 
-🔹 **IDE:** VS Code / IntelliJ IDEA / Eclipse.
+   🔹 **IDE:** VS Code / IntelliJ IDEA / Eclipse.
 
-🔹 **Version Control:** Git & GitHub.
+   🔹 **Version Control:** Git & GitHub.
 
-🤝 __Contributions & Support__
+🤝 #__Contributions & Support__
 
 This is a public learning journey — you're welcome to share:
 
-★ Suggestions
+   ★ Suggestions
 
-★ Improvements  
+   ★ Improvements  
 
-★ Helpful resources  
+   ★ Helpful resources  
 
 Thank you for stopping by!
 
