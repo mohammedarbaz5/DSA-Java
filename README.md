@@ -5,7 +5,7 @@ Welcome to my Java Learning Journey repository! 🌱
 
 This repository tracks my daily growth as I learn and master Java programming — starting from the fundamentals, moving into Object-Oriented Programming, exploring core Java concepts, and finally building mini projects to apply what I've learned.
 
-⭐ #__Why This Repository?__
+⭐ __Why This Repository?__
 
     ➤ To stay consistent in learning.
 
@@ -17,7 +17,7 @@ This repository tracks my daily growth as I learn and master Java programming �
  
     ➤ To showcase my learning progress. 
 
-📚 #__Learning Topics__
+📚 __Learning Topics__
 I will be covering the following topics step-by-step:
 | Stage | Topics |
 |-------|--------|
@@ -31,7 +31,7 @@ I will be covering the following topics step-by-step:
 | **Collections Framework** | List, Set, Map, Iterator |
 
 
-🎯 #__Learning Goals__
+🎯 __Learning Goals__
 
    ⭐ Strengthen Java fundamentals.
 
@@ -41,7 +41,7 @@ I will be covering the following topics step-by-step:
 
    ⭐ Gain confidence to build real-world projects.
 
-🛠 #__Tools & Setup__
+🛠 __Tools & Setup__
 
    🔹 **Java JDK 17+**
 
