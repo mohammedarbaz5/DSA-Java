@@ -7,11 +7,15 @@ This repository tracks my daily growth as I learn and master Java programming �
 
 ⭐ __Why This Repository?__
 
-➤ To stay consistent in learning  
-➤ To practice writing clean and clear code  
-➤ To build a strong foundation in Java  
-➤ To improve problem-solving skills  
-➤ To showcase my learning progress 
+➤ To stay consistent in learning.
+
+➤ To practice writing clean and clear code.
+
+➤ To build a strong foundation in Java.
+
+➤ To improve problem-solving skills.  
+
+➤ To showcase my learning progress. 
 
 📚 __Learning Topics__
 I will be covering the following topics step-by-step:
@@ -31,14 +35,19 @@ I will be covering the following topics step-by-step:
 🎯 __Learning Goals__
 
 ⭐ **Strengthen Java fundamentals.**
+
 ⭐ **Develop problem-solving habits.**
+
 ⭐ **Create a clean GitHub history with daily commits.**
+
 ⭐ **Gain confidence to build real-world projects.**
 
 🛠 __Tools & Setup__
 
 🔹 **Java JDK 17+**
+
 🔹 **IDE:** VS Code / IntelliJ IDEA / Eclipse.
+
 🔹 **Version Control:** Git & GitHub.
 
 🤝 __Contributions & Support__
@@ -46,7 +55,9 @@ I will be covering the following topics step-by-step:
 This is a public learning journey — you're welcome to share:
 
 ★ Suggestions
+
 ★ Improvements  
+
 ★ Helpful resources  
 
 Thank you for stopping by!
