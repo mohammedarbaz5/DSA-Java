@@ -14,13 +14,12 @@ public class TwoSum {
 
     public static void main(String[] args) {
 
-        // Example input
         int[] nums = {2, 7, 11, 15};
         int target = 18;
 
         int[] result = twoSum(nums, target);
 
-        // Output
         System.out.println("Output indices: [" + result[0] + ", " + result[1] + "]");
     }
 }
+
