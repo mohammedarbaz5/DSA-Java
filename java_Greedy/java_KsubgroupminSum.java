@@ -1,47 +1,33 @@
-public class java_KsubgroupminSum {
-    public static int splitArray(int[] arr, int k) {
-        int low = 0, high = 0;
+class Solution {
+    public int splitArray(int[] nums, int k) {
 
-        // Step 1: search space
-        for (int num : arr) {
-            low = Math.max(low, num);
-            high += num;
+        int left = 0, right = 0;
+
+        for (int n : nums) {
+            left = Math.max(left, n); // minimum possible answer
+            right += n;               // maximum possible answer
         }
 
-        // Step 2: binary search
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
 
-            if (canSplit(arr, k, mid)) {
-                high = mid - 1; // try smaller max sum
+            int countofsubarrays = 1, sum = 0;
+
+            for (int n : nums) {
+                if (sum + n > mid) {
+                    countofsubarrays++;
+                    sum = n;
+                } else {
+                    sum += n;
+                }
+            }
+
+            if (countofsubarrays <= k) {
+                right = mid;
             } else {
-                low = mid + 1;  // increase max sum
+                left = mid + 1;
             }
         }
-        return low;
-    }
-
-    private static boolean canSplit(int[] arr, int k, int maxSum) {
-        int count = 1;
-        int currSum = 0;
-
-        for (int num : arr) {
-            if (currSum + num <= maxSum) {
-                currSum += num;
-            } else {
-                count++;
-                currSum = num;
-                if (count > k) return false;
-            }
-        }
-        return true;
-    }
-    public static void main(String[] args) {
-        int arr[] = {1,1,2};
-        int k =2;
-        int arr1[] = {1,2,3,4};
-        int k1 =3;
-        System.out.println(splitArray(arr, k));
-        System.out.println(splitArray(arr1, k1));
+        return left;
     }
 }
