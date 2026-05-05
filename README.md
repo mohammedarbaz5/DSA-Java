@@ -1,7 +1,5 @@
 # DSA-Java
 __Java Learning Journey__ 🚀
-<br>
-Author : Mohammed Abdul Arbaz
 
 Welcome to my Java Learning Journey repository! 🌱
 
