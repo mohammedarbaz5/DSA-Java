@@ -10,31 +10,27 @@
 10 */
 11class Solution {
 12    public ListNode reverseKGroup(ListNode head, int k) {
-13        if(head == null || k == 1) return head;
-14        ListNode temp = head;
-15        List<Integer> list = new ArrayList<>();
-16        while(temp != null) {
-17            list.add(temp.val); 
-18            temp = temp.next;
-19        }
-20
-21        for(int i = 0 ; i + k <= list.size();i+=k){
-22            int left = i;
-23            int right = i +k -1;
-24            while(left < right){
-25                int t = list.get(left);
-26                list.set(left,list.get(right));
-27                list.set(right,t);
-28                left++;
-29                right--;
-30            }
-31        }
-32        ListNode curr = head;
-33        int i = 0 ; 
-34        while(curr != null){
-35            curr.val = list.get(i++);
-36            curr = curr.next;
-37        }
-38        return head;
-39    }
-40}
+13        ListNode temp = head;
+14        int i= 0;
+15        while(i<k){
+16            if(temp == null){
+17                return head;
+18            }
+19            temp = temp.next;
+20            i++;
+21        }
+22        ListNode prev = null;
+23        ListNode curr = head;
+24        ListNode next;
+25        int count =0;
+26        while(count<k){
+27            next = curr.next;
+28            curr.next = prev;
+29            prev = curr;
+30            curr = next;
+31            count++;
+32        }
+33        head.next = reverseKGroup(curr,k);
+34        return prev;
+35    }
+36}
