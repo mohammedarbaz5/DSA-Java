@@ -9,50 +9,45 @@
 9 * }
 10 */
 11class Solution {
-12    public ListNode sortList(ListNode head) {
-13        if(head == null || head.next == null) return head;
-14        ListNode mid = findmid(head);
-15        ListNode newrighthead = mid.next;
-16        mid.next = null;
-17        ListNode Lefthead = sortList(head);
-18        ListNode righthead = sortList(newrighthead);
-19        return merge(Lefthead,righthead);
+12    public ListNode findMid(ListNode head){
+13        ListNode slow = head;
+14        ListNode fast = head.next;
+15        while(fast != null && fast.next != null){
+16            slow = slow.next;
+17            fast = fast.next.next;
+18        }
+19        return slow;
 20    }
-21        public ListNode merge(ListNode Lefthead,ListNode righthead){
-22            ListNode dummy = new ListNode(-1);
-23            ListNode temp = dummy;
-24            while(Lefthead != null && righthead != null){
-25                if(Lefthead.val < righthead.val){
-26                    temp.next = Lefthead;
-27                    Lefthead = Lefthead.next;
-28                }else{
-29                    temp.next = righthead;
-30                    righthead = righthead.next;
-31                }
-32                temp = temp.next;
-33            }
-34            while(Lefthead != null){
-35                temp.next = Lefthead;
-36                Lefthead = Lefthead.next;
-37                temp = temp.next;
-38            }
-39            while(righthead != null){
-40                temp.next = righthead;
-41                righthead = righthead.next;
-42                temp = temp.next;
-43            }
-44            return dummy.next;
+21    public ListNode sortList(ListNode head) {
+22        if (head == null || head.next == null){
+23            return head;
+24        }
+25        ListNode mid = findMid(head);
+26        ListNode righthead = mid.next;
+27        mid.next = null;
+28        ListNode newLeft = sortList(head);
+29        ListNode newRight = sortList(righthead);
+30        return merge(newLeft,newRight);
+31    }
+32    public ListNode merge(ListNode head1,ListNode head2){
+33        ListNode dummy = new ListNode(0);
+34        ListNode tail = dummy;
+35        while(head1 != null && head2 != null){
+36            if(head1.val <= head2.val){
+37            tail.next = head1;
+38            head1 = head1.next;
+39        }else{
+40            tail.next = head2;
+41            head2 = head2.next;
+42        }
+43        tail = tail.next;
+44        }
 45
-46        }
-47
-48
-49        public ListNode findmid(ListNode head){
-50            ListNode slow = head;
-51            ListNode fast = head.next;
-52            while(fast != null && fast.next != null){
-53                slow = slow.next;
-54                fast = fast.next.next;
-55            }
-56            return slow;
-57        }
-58}
+46        if(head1 != null){
+47            tail.next = head1;
+48        }else{
+49            tail.next = head2;
+50        }
+51        return dummy.next;
+52    }
+53}
