@@ -9,7 +9,7 @@
 9            if(s.isEmpty()){
 10                ans[i] = 0;
 11            }else{
-12                ans[i] = Math.abs(i - s.peek());
+12                ans[i] = s.peek() -i;
 13            }
 14            s.push(i);
 15        }
